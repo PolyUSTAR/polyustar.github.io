@@ -313,7 +313,8 @@ span.darknav {
 
 ul.ul-edu {
     list-style: none;
-}h3
+}
+
 ul.ul-edu li .description p {
     margin: 0;
 }
@@ -535,8 +536,6 @@ img.in-text {
 
 #comments {
     padding: 20px;
-}
-
 }
 
 /*************************************************
