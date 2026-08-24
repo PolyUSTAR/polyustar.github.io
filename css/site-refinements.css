@@ -271,78 +271,13 @@ nav#navbar-main li {
     min-height: 70vh;
 }
 
-.team-page__header {
-    padding: 52px 0 34px;
-    background: #f7f9fa;
-    border-bottom: 1px solid #edf0f2;
-}
-
-.team-page__eyebrow {
-    margin: 0 0 7px;
-    color: #006199;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-}
-
-.team-page__header h1 {
-    margin: 0 0 12px;
-}
-
-.team-page__intro {
-    max-width: 680px;
-    margin: 0;
-    color: #64717a;
-    font-size: 17px;
-}
-
-.team-page__summary {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px 24px;
-    margin-top: 22px;
-    color: #65727b;
-    font-size: 14px;
-}
-
-.team-page__summary strong {
-    margin-right: 4px;
-    color: #20292f;
-    font-size: 18px;
-}
-
-.team-page__nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 25px;
-}
-
-.team-page__nav a {
-    padding: 7px 12px;
-    color: #42515a;
-    background: #fff;
-    border: 1px solid #dfe5e8;
-    border-radius: 999px;
-    font-size: 13px;
-    transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
-}
-
-.team-page__nav a:hover,
-.team-page__nav a:focus {
-    color: #006199;
-    background: #f4f9fc;
-    border-color: #8db8cf;
-}
-
 .team-page__content {
-    padding-top: 2px;
+    padding-top: 20px;
     padding-bottom: 30px;
 }
 
 .team-section {
-    padding: 43px 0 4px;
+    padding: 24px 0 4px;
     scroll-margin-top: 76px;
 }
 
@@ -352,32 +287,12 @@ nav#navbar-main li {
 }
 
 .team-section__heading {
-    display: flex;
-    align-items: flex-start;
-    gap: 14px;
     margin-bottom: 20px;
 }
 
-.team-section__number {
-    flex: 0 0 auto;
-    width: 28px;
-    margin: 4px 0 0;
-    color: #8b9aa3;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-}
-
 .team-section__heading h2 {
-    margin: 0 0 5px;
-    color: #20292f;
-    font-size: 25px;
-}
-
-.team-section__heading p:not(.team-section__number) {
     margin: 0;
-    color: #7a878f;
-    font-size: 14px;
+    font-size: 26px;
 }
 
 .team-grid {
@@ -486,29 +401,9 @@ nav#navbar-main li {
     font-weight: 700;
 }
 
-.team-empty-state {
-    padding: 20px 22px;
-    color: #74818a;
-    background: #f7f9fa;
-    border-left: 3px solid #a9c7d7;
-}
-
-.team-empty-state p {
-    margin: 0;
-    font-size: 14px;
-}
-
 @media screen and (max-width: 768px) {
-    .team-page__header {
-        padding: 38px 0 27px;
-    }
-
-    .team-page__intro {
-        font-size: 15px;
-    }
-
     .team-section {
-        padding-top: 34px;
+        padding-top: 24px;
     }
 
     .team-grid,
